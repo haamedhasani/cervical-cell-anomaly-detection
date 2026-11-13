@@ -23,9 +23,14 @@ The dataset is not included in this repository. Users must obtain the dataset fr
 
 ## Models
 
-- Hybrid β-VAE + WGAN-GP
-- Standalone Variational Autoencoder (VAE)
-- Standalone Generative Adversarial Network (GAN)
+This repository implements and evaluates four deep learning approaches for cervical cell anomaly detection:
+
+1. **Hybrid β-VAE + WGAN-GP (Proposed Model):** A hybrid framework combining variational representation learning with adversarial training.
+2. **Standalone β-VAE:** A variational autoencoder baseline without an adversarial component.
+3. **Standalone WGAN-GP:** A Wasserstein GAN with gradient penalty, used as an independent adversarial baseline.
+4. **CBiGAN:** A conditional bidirectional generative adversarial network baseline.
+
+All four approaches are evaluated using a consistent experimental framework, including anomaly detection metrics and statistical comparisons.
 
 ## Implementation
 
