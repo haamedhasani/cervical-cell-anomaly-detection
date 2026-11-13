@@ -32,6 +32,41 @@ This repository implements and evaluates four deep learning approaches for cervi
 
 All four approaches are evaluated using a consistent experimental framework, including anomaly detection metrics and statistical comparisons.
 
+## Installation and Execution
+
+### Environment
+
+The project is implemented in Python using PyTorch and related scientific computing libraries.
+
+The following dependencies are required:
+
+- Python 3
+- PyTorch
+- Torchvision
+- NumPy
+- Pandas
+- OpenCV
+- Matplotlib
+- Seaborn
+- tqdm
+- scikit-learn
+- SciPy
+
+### Running on Kaggle
+
+The current implementation is configured to run in a Kaggle Notebook environment.
+
+1. Create or open a Kaggle Notebook.
+2. Enable GPU acceleration in the Notebook settings.
+3. Add the SIPaKMeD dataset to the Notebook using the Kaggle **Add Input** option.
+4. Make sure the dataset is accessible at the following path:
+
+   `/kaggle/input/datasets/marinaeplissiti/sipakmed`
+
+5. Clone this repository in a Notebook cell:
+
+   ```bash
+   !git clone https://github.com/haamedhasani/cervical-cell-anomaly-detection.git
 ## Implementation
 
 The project is implemented in Python using PyTorch and other scientific Python libraries.
